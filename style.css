@@ -12,9 +12,12 @@
     /* color: var(--clr-pry); */
 }
 
+
+
 body{
     background-color:rgb(220, 220, 220);
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
     margin:0 auto;
     /* font-family: 'Questrial', sans-serif; */
 }
@@ -30,12 +33,28 @@ h1{
 }
 
 /* Nav Styling */
+nav{
+    background-color: var(--clr-pry);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.2rem;
+    
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    gap: 2rem;
+    
+}
 
 #hamburger{
-    display: grid;
     gap: 3px;
     position: fixed;
-    top: 20px;
+    top: 17px;
     right: 20px;
     cursor: pointer;
 }
@@ -43,8 +62,19 @@ h1{
 .ham{
     width: 1.5rem;
     height: 0.3rem;
-    background-color: var(--clr-pry);
+    background-color: white;
     border-radius: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    
+}
+
+.hidden{
+    display:none;
 }
 
 /* media queries */
@@ -52,21 +82,38 @@ h1{
  body{
     /* background-color: red; */
  }
+ #hamburger{
+    display: grid;
+ }
+ nav{
+    flex-direction: column;
+
+ }
+ .navItems{
+    display: grid;
+    /* align-content: space-around; */
+    justify-content: space-around;
+    height: 100vh;
+    gap: 4rem;
+    text-align: center;
+    background-color: aquamarine;
+ }
 }
 @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ 
     body{
-        background-color: orange;
+        /* background-color: orange; */
      }
 }
 @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
     body{
-        background-color: yellow;
+        /* background-color: yellow; */
      }
 }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     body{
         background-color: green;
      }
+     .hamburger
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 
