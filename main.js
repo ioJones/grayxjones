@@ -1,5 +1,5 @@
 const menuIcon = document.querySelector('#hamburger'),
-    menus = document.querySelector('.navItems');
+    menus = document.querySelector('#navItems');
 
     menuIcon.addEventListener('click', revealMenu = ()=>{
         menus.classList.toggle('hidden');
