@@ -10,15 +10,21 @@
 <body>
     <main id="main">
         <header>
-            <div id="logo">LOGO</div>
-            <nav>
-                <ul id="menuItems">
-                    <a href="#" class="menuItem"></a><li >Home</li> </a>
-                    <a href="#" class="menuItem"></a><li >Portfolio</li> </a>
-                    <a href="#" class="menuItem"></a><li >About</li> </a>
-                    <a href="#" class="menuItem"></a><li >Blog</li> </a>
-                    <a href="#" class="menuItem btn-pry"></a><li >Get in touch</li> </a>
+            <nav id="menuItems">
+                <div id="logo">LOGO</div>
+                <ul class="menuItems">
+                    <li class="menuItem"><a href="#" >Home</a></li>
+                    <li class="menuItem"><a href="#">Portfolio</a></li>
+                    <li class="menuItem"><a href="#">About</a></li>
+                    <li class="menuItem"><a href="#">Blog</a></li>
+                    <button>Get in touch</button>
                 </ul>
+                <div id="hamburger">
+                    <div class="ham"></div>
+                    <div class="ham"></div>
+                    <div class="ham"></div>
+                </div>
+                
             </nav>
             <section id="mainContent">
                 <div id="mainContent_BG">
@@ -37,7 +43,7 @@
                 <div id="mainContent_R">
                     <div class="scrolldown">Scroll down to read more</div>
                     <hr>
-                    <div class="scrollIcon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <div class="scrollIcon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="var(--clr-pry)" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                       </div>
@@ -46,5 +52,6 @@
         </header>
     </main>
     
+    <script src="/main.js"></script>
 </body>
 </html>
