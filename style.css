@@ -131,7 +131,8 @@ hr{
     /* border: solid 2px var(--clr-pry); */
     padding: 1rem 2rem;
     color: var(--clr-pry);
-    
+    /* display: grid; */
+    /* grid-template-columns: 2fr 1fr; */
     cursor: pointer;
     
  }
