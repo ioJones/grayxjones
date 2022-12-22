@@ -3,6 +3,10 @@
 
 :root{
     --clr-pry: rgb(33, 33, 33);
+    --clr-sec: rgb(137, 104, 31);
+    --clr-neut-light: rgb(220, 220, 220);
+    --clr-neut-dark: rgb(33, 33, 33);
+    --clr-accent:rgb(240, 172, 94);
 }
 
 
@@ -68,7 +72,7 @@ nav{
     left: 100%;
     background-color: rgba(33,33,33,100);
     z-index: -30;
-    transition:ease-out 0.5s;
+    /* transition:transform; */
     
  }
 @keyframes fadeIn {
@@ -95,7 +99,8 @@ nav{
 
 #hamburger{
     display: flex;
-    flex-direction: column;justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: space-around; */
     gap: 3px;
     /* position: fixed; */
     /* top: 17px; */
@@ -111,10 +116,8 @@ nav{
 }
 
 li a{
-    text-decoration: none;
-    color: white;
-    /* display: flex; */
-    background-color: rgb(28, 81, 63);
+    
+
 }
 
     /* hero */
@@ -163,21 +166,28 @@ hr{
 
 
  /* buttons */
- .btn, a{
-    background-color: none;
-    /* border: solid 2px var(--clr-pry); */
+.btn, a{
+    all:unset;
     padding: 1rem 2rem;
-    color: var(--clr-pry);
-    /* display: grid; */
-    /* grid-template-columns: 2fr 1fr; */
     cursor: pointer;
+    background-color: none;
+    color: var(--clr-pry);
+    border: solid 1px var(--clr-pry);
+    transition: ease 0.5s;
     
  }
 
- .btn:hover{
-    background-color: var(--clr-pry);
+ .btn-sec{
+    text-decoration: none;
     color: white;
+    ;
+ }
+
+ .btn-sec:hover{
+    background-color: var(--clr-pry);
+    color: var(--clr-accent);
     transition: ease 200ms;
+    border: solid 1px var(--clr-neut-light);
 
  }
 
@@ -232,7 +242,10 @@ hr{
     grid-row: 2;
 }
 
-
+ul{
+    background-color: red;
+    width: 100vw;
+}
 
 
 
@@ -294,4 +307,6 @@ hr{
         /* background-color: blue; */
      }
 }
+
+
 
