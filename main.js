@@ -1,11 +1,12 @@
 const menuIcon = document.querySelector('#hamburger'),
-    menus = document.querySelector('#navItems');
+    menus = document.querySelector('#navItems'),
+    closeMenu = document.querySelector('#closeMenu');
 
     menuIcon.addEventListener('click', revealMenu = ()=>{
       
       if (menus.classList.contains('hidden')) { 
         menus.classList.toggle('hidden');
-        menus.style.left='100%';
+        menus.style.left='120vw';
         menus.style.animation='fadeOut ease 0.5s'
     } else{
         menus.style.left='0'
@@ -15,3 +16,7 @@ const menuIcon = document.querySelector('#hamburger'),
         console.log(menus.classList);
 
     });
+
+    closeMenu.addEventListener('click', revealMenu)
+
+    menuIcon.addEventListener('')
