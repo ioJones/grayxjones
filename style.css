@@ -359,4 +359,45 @@ ul{
 }
 
 
+/* icons */
+path{
+    fill: var(--clr-pry)
+}
+
+
+/* cards */
+.review{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 5vw, 600px);
+    padding: 2rem;
+    background-color: var(--clr-bg-light);
+    gap: 20px;
+    box-shadow: var(--shadow-2);
+    transition: ease 0.5s;
+}
+
+.card:hover{
+    box-shadow: var(--shadow-4);
+    scale: 102%;
+}
+
+.cardImage{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cardHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
