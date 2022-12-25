@@ -1,5 +1,5 @@
 {
-  "name": "grayxjones-blog",
+  "name": "blog-notion",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.0.0",
-    "@notionhq/client": "^2.2.3"
+    "vite": "^4.0.0"
   }
 }

@@ -1,8 +1,10 @@
 const menuIcon = document.querySelector('#hamburger'),
     menus = document.querySelector('#navItems'),
     closeMenu = document.querySelector('#closeMenu');
+    console.log(menuIcon)
 
-    menuIcon.addEventListener('click', revealMenu = ()=>{
+    menuIcon.addEventListener('click', revealMenu) 
+    function revealMenu(){
       
       if (menus.classList.contains('hidden')) { 
         menus.classList.toggle('hidden');
@@ -15,8 +17,6 @@ const menuIcon = document.querySelector('#hamburger'),
     }
         console.log(menus.classList);
 
-    });
+    };
 
     closeMenu.addEventListener('click', revealMenu)
-
-    menuIcon.addEventListener('')
