@@ -1,0 +1,20 @@
+<svg class="headerLogo" width="64" height="64" viewBox="0 0 100 100" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+    <style>
+    path{
+        fill: rgb(33, 33, 33);
+    }
+    @media (prefers-color-scheme:dark){
+        fill: rgb(220,220,220)
+    }
+    </style>
+
+				<path class="logo" fill-rule="evenodd" clip-rule="evenodd"
+					d="M94.9153 5.08475H5.08475V94.9153H94.9153V5.08475ZM0 0V100H100V0H0Z" fill="" />
+				<path class="logo"
+					d="M89.8305 10.3814H10.3814V89.6186L40.1483 89.7246V74.6822H25.2119V25.2119H75.1059V40.2542H89.8305V10.3814Z"
+					fill="" />
+				<path class="logo"
+					d="M45.2331 89.7246V64.9364H60.2754V74.6822H74.8941V59.9576H65.2542V45.339H89.8305V89.7246H45.2331Z"
+					fill="" />
+</svg>
