@@ -225,6 +225,7 @@ hr {
 }
 
 #scrollIcon {
+    /* background-color: none; */
     width: 30px;
 }
 
@@ -317,9 +318,7 @@ ul {
 
 
 /* icons */
-path {
-    fill: var(--clr-pry);
-}
+
 
 
 /* Review & Review cards */
@@ -374,7 +373,7 @@ footer {
 
 
 .footerLogo {
-    fill: var(--clr-sec);
+    /* fill: var(--clr-sec); */
 }
 
 .copyright {
