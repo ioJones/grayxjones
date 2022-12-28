@@ -185,7 +185,8 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 14px;
-    width: 300px;
+    min-width: 250px;
+    max-width: 300px;
 }
 
 /* hero */
@@ -226,7 +227,7 @@ hr {
 
 #scrollIcon {
     /* background-color: none; */
-    width: 30px;
+    width: 60px;
 }
 
 .cta {
@@ -312,8 +313,8 @@ hr {
 }
 
 ul {
-    background-color: red;
-    width: 100vw;
+    /* background-color: red; */
+    /* width: 100vw; */
 }
 
 
@@ -335,11 +336,20 @@ ul {
     overflow-x: scroll;
     gap:3rem;
     padding-inline-end: 6rem;
+    padding-block: 3rem;
     /* width: 100vw; */
+}
+.comments {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.comments::-webkit-scrollbar { 
+    display: none; /*   Safari and Chrome */
 }
 
 .card {
     display: flex;
+    height: 100%;
     flex-direction: column;
     width: clamp(300px, 5vw, 600px);
     padding: 2rem;
@@ -382,6 +392,12 @@ footer {
 
 .footerLogo {
     /* fill: var(--clr-sec); */
+}
+
+.footerLinks a:hover{
+text-decoration: underline;
+font-weight: 500;
+/* transition: 0.6s; */
 }
 
 .copyright {
