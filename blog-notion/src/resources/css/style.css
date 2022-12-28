@@ -330,6 +330,14 @@ ul {
     background-color: var(--clr-bg-light);
 }
 
+.comments{
+    display: flex;
+    overflow-x: scroll;
+    gap:3rem;
+    padding-inline-end: 6rem;
+    /* width: 100vw; */
+}
+
 .card {
     display: flex;
     flex-direction: column;
