@@ -27,6 +27,7 @@ navInject.innerHTML = ` <!-- <div id="logo">LOGO</div> -->
     <li class="menu"><a class="btn btn-pry" href="/portfolio/">Portfolio</a></li>
     <li class="menu"><a class="btn btn-pry" href="/about/">About</a></li>
     <li class="menu"><a class="btn btn-pry" href="/blog/">Blog</a></li>
+    <li class="menu"><a class="btn btn-pry" href="/login/">Sign In</a></li>
     <button class="btn btn-sec">Get in touch</button>
 </ul>
 <div id="hamburger">
