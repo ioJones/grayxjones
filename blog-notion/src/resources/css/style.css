@@ -64,7 +64,7 @@
 
 body {
     background-color: var(--clr-sec);
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', 'sans-serif';
     font-weight: 300;
     margin: 0;
     color: var(--clr-pry);
@@ -107,7 +107,7 @@ nav {
     align-items: center;
     padding: 1rem 1.5rem;
     z-index: 2;
-    overflow-x: none;
+
 
 
 
@@ -227,7 +227,6 @@ hr {
 }
 
 #scrollIcon {
-    /* background-color: none; */
     width: 60px;
 }
 
@@ -243,7 +242,6 @@ hr {
     all: unset;
     padding: 1rem 2rem;
     cursor: pointer;
-    background-color: none;
     border: solid 1px var(--clr-pry);
     transition: ease 0.5s;
 }
