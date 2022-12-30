@@ -9,11 +9,9 @@ const template = async  () => {
 
     const parser = new DOMParser()
     let parsedData2 = parser.parseFromString(data,'text/html')
-    console.log(parsedData2)
     let card = parsedData2.querySelector('.card')
 
     for (let i=0;i<10;i++){
-        console.log(dataImg)
         let comments = document.querySelector('.comments')
         let card = document.createElement('div')
         card.innerHTML = ` <article class="card" tabindex=0>

@@ -11,6 +11,7 @@
     --clr-accent-dark: rgb(192, 114, 25);
     --clr-btn-hover: rgb(05, 05, 05);
     --clr-bg-light: aliceblue;
+    
 
     /* Typography Sizing */
     --font-size-fluid-1: clamp(1rem, 2.5vw, 1.3rem);
@@ -37,7 +38,7 @@
 }
 
 /* Dark Theme Colors */
-@media (prefers-color-scheme:dark) {
+/* @media (prefers-color-scheme:dark) {
     :root {
         --clr-pry: rgb(220, 220, 220);
         --clr-sec: rgb(33, 33, 33);
@@ -47,7 +48,7 @@
         --clr-bg-light: rgb(44, 49, 55);
     }
 
-}
+} */
 
 /* General Styling */
 
@@ -269,6 +270,15 @@ hr {
     color: var(--clr-accent-light);
     transition: ease 200ms;
     border: solid 1px var(--clr-pry);
+}
+.themeSwitchBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 120px;
+    background-color: var(--clr-accent-light);
+    color: white;
 }
 
 

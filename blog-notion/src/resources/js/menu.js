@@ -1,5 +1,4 @@
 const navInject = document.querySelector('#menuItems')
-console.log(navInject)
 navInject.innerHTML = ` <!-- <div id="logo">LOGO</div> -->
 <a href="/"> 
 <svg class="headerLogo" width="100" height="100" viewBox="0 0 100 100" fill="none"
@@ -22,7 +21,7 @@ navInject.innerHTML = ` <!-- <div id="logo">LOGO</div> -->
         </svg>
 
     </div>
-
+    
     <li class="menu"><a class="btn btn-pry" href="/">Home</a></li>
     <li class="menu"><a class="btn btn-pry" href="/portfolio/">Portfolio</a></li>
     <li class="menu"><a class="btn btn-pry" href="/about/">About</a></li>
@@ -43,7 +42,6 @@ navInject.innerHTML = ` <!-- <div id="logo">LOGO</div> -->
 const menuIcon = document.querySelector('#hamburger'),
     menus = document.querySelector('#navItems'),
     closeMenu = document.querySelector('#closeMenu');
-    console.log(menuIcon)
 
     menuIcon.addEventListener('click', revealMenu) 
     function revealMenu(){
@@ -57,8 +55,11 @@ const menuIcon = document.querySelector('#hamburger'),
         menus.classList.toggle('hidden')
         menus.style.animation='fadeIn ease 0.5s'
     }
-        console.log(menus.classList);
 
     };
 
     closeMenu.addEventListener('click', revealMenu)
+
+
+
+
